@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>oop User</title>
+</head>
+<body>
+    <div class="container">
+        <div class="user-form">
+            <h2>Add new User</h2>
+            <form>
+                <input type="text" placeholder="First name " id="firstName" required>
+                <input type="text" placeholder="Last name" id="LastName" required>
+                <input type="text" placeholder="student id" id="StudId" required>
+                <input type="date" id="birthDate" required>
+                <button type="submit" id="create">Add student</button>
+            </form>
+        </div>
+        <div class="students-list">
+            <table>
+                <thead>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Student Id</td>
+                    <td>Birth Date</td>
+                    <td>actions</td>
+                </thead>
+                <tbody class="users">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
